@@ -65,31 +65,31 @@ Explore the different tables that are present in the Food Hunter database
 
 ## Data Analysis
 
-1.	**Revenue Analysis: Revenue related factors**
+**Revenue Analysis: Revenue related factors**
 	
 i. Analyze monthly revenue trends and identify any significant fluctuations.
 
 ii. Determine the impact of various cuisines, restaurants, and delivery times on revenue.
 
-2.	**Customer Behavior: Time-based problems**
+**Customer Behavior: Time-based problems**
 	
 i. Investigate customer ordering patterns, including frequency, order size, and cuisine preferences.
 
 ii. Analyze customer demographics to identify any specific groups contributing to the revenue decline.
 
-3.	**Delivery Performance: Delivery partners problems**
+**Delivery Performance: Delivery partners problems**
 	
 i. Examine delivery times and ratings to assess the quality of service.
 
 ii. Identify any correlations between delivery times, ratings, and customer satisfaction.
 
-4. **Restaurant and Food Item Analysis: Time of day**
+**Restaurant and Food Item Analysis: Time of day**
  
 i. Evaluate the performance of different restaurants and food items.
 
 ii. Identify top-performing and underperforming restaurants and items.
 
-5. **Competitor Analysis:**
+**Competitor Analysis:**
  
 i. Compare Food Hunter's monthly revenue against competitors using the Vendors and Vendors Metrics tables.
 
