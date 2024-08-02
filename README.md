@@ -1,4 +1,4 @@
-# SQL Portfolio - Food Hunter Revenue Analysis 
+# Food Hunter Revenue Analysis 
 
 ## Introduction
 Food Hunter, a well-funded food delivery app, offers a diverse selection of restaurants and multiple cuisines, paired with quick delivery services. However, the company has observed a consistent decline in monthly revenues over the last quarter. To address this issue, Food Hunter seeks to identify the various factors contributing to the downturn in business. The project aims to analyse the data available at the order level, encompassing details such as cuisines, restaurants, delivery time ratings, and more, to uncover the reasons behind the revenue decline.
