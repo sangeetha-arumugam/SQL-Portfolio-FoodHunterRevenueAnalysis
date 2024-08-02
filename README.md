@@ -18,12 +18,14 @@ The Food Hunter database comprises six tables, each containing vital information
 5.	Restaurants: Provides information on the various restaurants partnered with Food Hunter.
 
 6.	Drivers: Includes data about the drivers responsible for delivering the orders.
+
 ## Task
 1. Data Extraction: Utilize SQL queries to extract relevant data from the six tables.
 
 2. Data Cleaning and Transformation: Ensure data accuracy and consistency through cleaning and transformation processes.
 
 3. Data Analysis: Apply SQL functions, including JOINs, aggregation, and analytical functions like LAG, to analyze the data.
+
 ## Data & Resource Used
 
 **Dataset**
@@ -35,6 +37,7 @@ Option 2: And, also the dataset can be found on [Fractal Analytics](https://www.
 **Tool** 
 
 MySQL Workbench
+
 ## Data Cleaning and Preparation
 ### 1. Extract the data by utilize SQL queries to extract relevant data from the six tables.
 Checking NULL values, blanks and Errors.
