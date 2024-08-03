@@ -7,17 +7,17 @@ The primary objective is to utilize SQL queries to extract, analyze, and interpr
 ## Data Overview
 The Food Hunter database comprises six tables, each containing vital information for the analysis:
 
-1.	Customers: Contains details about the customers who place orders.
+1. Customers: Contains details about the customers who place orders.
 
-2.	Orders: Records information related to each order placed through the app.
+2. Orders: Records information related to each order placed through the app.
 
-3.	Food Items: Lists the food items available for delivery, along with associated details.
+3. Food Items: Lists the food items available for delivery, along with associated details.
 
-4.	Order Items: Contains data on the specific items included in each order.
+4. Order Items: Contains data on the specific items included in each order.
 
-5.	Restaurants: Provides information on the various restaurants partnered with Food Hunter.
+5. Restaurants: Provides information on the various restaurants partnered with Food Hunter.
 
-6.	Drivers: Includes data about the drivers responsible for delivering the orders.
+6. Drivers: Includes data about the drivers responsible for delivering the orders.
 
 ## Task
 1. Data Extraction: Utilize SQL queries to extract relevant data from the six tables.
@@ -97,78 +97,78 @@ ii. Calculate the percentage difference in monthly revenue and analyze the month
 
 ## Key Findings
 ### 1. Revenue related factors
-•	**Checking the total revenue of each month in orders table.**
+• **Checking the total revenue of each month in orders table.**
 
-		**Note:** Outcome of the above query we detect that downfall in terms of sales or revenue
+**Insight:** Outcome of the above query we detect that downfall in terms of sales or revenue
 
 ![Alternative Text](assets/images/Findings Q1.png)
 
-•	**Looking at total discount with total revenue over the months.**   
+• **Looking at total discount with total revenue over the months.**   
 
-		**Note:** The ratio is consistent throughout the four months with discounts around 13%. Hence we can conclude that there was no variation in discounts or offers. So it is not one of the reasons for a drop in sales.
+**Insight:** The ratio is consistent throughout the four months with discounts around 13%. Hence we can conclude that there was no variation in discounts or offers. So it is not one of the reasons for a drop in sales.
 
 ![Alternative Text](assets/images/Findings Q2.png)  
 
 ### 2. Time-based problems   
-•	**Looking at the variation of sales over days.**   
+• **Looking at the variation of sales over days.**   
 
-		**Note:** weekdays have more number of orders compared to weekends.
+**Insight:** weekdays have more number of orders compared to weekends.
 
 ![Alternative Text](assets/images/Findings Q3.png) 
 
-•	**Finding the percentage change in revenue for the months.**   
+• **Finding the percentage change in revenue for the months.**   
 
-		**Note:** we can conclude that there is something going wrong in the the weekend sales. The weekend sales need to be improved substantially to help Food Hunter regain their revenue.
+**Insight:** we can conclude that there is something going wrong in the the weekend sales. The weekend sales need to be improved substantially to help Food Hunter regain their revenue.
 
 ![Alternative Text](assets/images/Findings Q4.png)
 
-•	**Finding the percentage drop of revenue for days of the week, that is Monday, Tuesday, Wednesday and so on.**   
+• **Finding the percentage drop of revenue for days of the week, that is Monday, Tuesday, Wednesday and so on.**   
 
 ![Alternative Text](assets/images/Findings Q5.png)
 ### 3. Delivery partners problems
-•	**Querying the delivery partners with the worst overall average delivery duration.**   
+• **Querying the delivery partners with the worst overall average delivery duration.**   
 
-		**Note:** As you have seen that there is an increase in delivery duration over the last four months. Food Hunter should learn from best practices of best delivery partners and share learning with the rest of the delivery partners to improve delivery time
+**Insight:** As you have seen that there is an increase in delivery duration over the last four months. Food Hunter should learn from best practices of best delivery partners and share learning with the rest of the delivery partners to improve delivery time
 
 ![Alternative Text](assets/images/Findings Q6.png)
 
 ### 4. Time of day
-•	**Finding the percentage changes in the revenue across four time segments over four months.**   
+• **Finding the percentage changes in the revenue across four time segments over four months.**   
 
-		**Note:** Clearly, non-veg orders have an upper hand of almost 2.5 times, thus confirming that our customers prefer to order non-veg from Food Hunter platform. Now that we know which food type is preferred by the customers, Food Hunter should try and diversify their non-vegetarian options and provide more cuisines to the customers. This can certainly help boost their sales even further. We have found the value for the number of orders is based on the food preferences.
+**Insight:** Clearly, non-veg orders have an upper hand of almost 2.5 times, thus confirming that our customers prefer to order non-veg from Food Hunter platform. Now that we know which food type is preferred by the customers, Food Hunter should try and diversify their non-vegetarian options and provide more cuisines to the customers. This can certainly help boost their sales even further. We have found the value for the number of orders is based on the food preferences.
 
 ![Alternative Text](assets/images/Findings Q7.png) 
 
-•	**Looking for the percentage change in food preferences for each month.**   
+• **Looking for the percentage change in food preferences for each month.**   
 
-		**Note:** The change% is consistent throughout the four months in Non-Veg around 10%. But, the change% is inconsistent throughout the four months in Veg like 13%, 9%, and 6%. Hence we can conclude that we know which food type is preferred by the customers, Food Hunter should try and diversify their vegetarian and non-vegetarian  options and provide more cuisines to the customers. This can certainly help boost their sales even further. We have found the percentage change in food preferences for each month based on the number of orders is based on the food preferences.
+**Insight:** The change% is consistent throughout the four months in Non-Veg around 10%. But, the change% is inconsistent throughout the four months in Veg like 13%, 9%, and 6%. Hence we can conclude that we know which food type is preferred by the customers, Food Hunter should try and diversify their vegetarian and non-vegetarian  options and provide more cuisines to the customers. This can certainly help boost their sales even further. We have found the percentage change in food preferences for each month based on the number of orders is based on the food preferences.
 
 ![Alternative Text](assets/images/Findings Q8.png)
 
-•	**Looking for the number of items ordered from each of the restaurants.**   
+• **Looking for the number of items ordered from each of the restaurants.**   
 
-		**Note:** We have retrieved the list of restaurants that have 0 items ordered along with their cuisines. Out of the eight restaurants that we have over here, a pattern can be seen, notice that six of them are Italian restaurants. It could be that the customers aren't happy with the options in the menu or that the prices aren't suitable. But we don't have enough information in terms of the customer feedback in order to confirm this. 
+**Insight:** We have retrieved the list of restaurants that have 0 items ordered along with their cuisines. Out of the eight restaurants that we have over here, a pattern can be seen, notice that six of them are Italian restaurants. It could be that the customers aren't happy with the options in the menu or that the prices aren't suitable. But we don't have enough information in terms of the customer feedback in order to confirm this. 
 
 ![Alternative Text](assets/images/Findings Q9.png)
 
 ### 5. Solution  
 
-		**Action to Take:** But one thing is for certain, and that is that Food Hunter can regain its reputation in the market with a few major tweaks in marketing, delivery times, and by providing better offers and discounts.
+**Action to Take:** But one thing is for certain, and that is that Food Hunter can regain its reputation in the market with a few major tweaks in marketing, delivery times, and by providing better offers and discounts.
 
 ### 6. Competitor Analysis
-•	**Finding the percentage difference in monthly revenue and analyze the month-on-month changes**   
+• **Finding the percentage difference in monthly revenue and analyze the month-on-month changes**   
 
-		**Note:** While observing that different food delivery applications seems to have different trends based on the monthly revenue. While FoodBae has a similar downward trend to food Hunter, Yangzhou seems to have a month to month increase in revenue as you can see over here. On the other hand, Zippy Eats has been facing an extreme downfall in the revenue, which you can see over here. There isn't a particular trend with mixed variations and the revenue for FlavourGo, as you can see over here. Thus, you can conclude that this downfall in revenue is more or less Food Hunter centric. They need to fix the issues in order to get back on track with their competitors. 
+**Insight:** While observing that different food delivery applications seems to have different trends based on the monthly revenue. While FoodBae has a similar downward trend to food Hunter, Yangzhou seems to have a month to month increase in revenue as you can see over here. On the other hand, Zippy Eats has been facing an extreme downfall in the revenue, which you can see over here. There isn't a particular trend with mixed variations and the revenue for FlavourGo, as you can see over here. Thus, you can conclude that this downfall in revenue is more or less Food Hunter centric. They need to fix the issues in order to get back on track with their competitors. 
 
 ![Alternative Text](assets/images/Findings Q10.png)
 
 ## Conclusion
 The analysis aims to provide actionable insights into the factors contributing to the decline in Food Hunter's monthly revenues. The findings will help the company strategize improvements in customer satisfaction, service quality, and competitive positioning.
 ## Recommended Analysis
-•	Further analysis of customer feedback and reviews to enhance service quality.
+• Further analysis of customer feedback and reviews to enhance service quality.
 
-•	Implementation of predictive analytics to forecast future trends and identify potential growth areas.
+• Implementation of predictive analytics to forecast future trends and identify potential growth areas.
 
-•	Exploration of additional data sources, such as marketing and promotions data, to provide a more comprehensive analysis.
+• Exploration of additional data sources, such as marketing and promotions data, to provide a more comprehensive analysis.
 ## Reflection
 This project highlights the importance of data-driven decision-making in identifying business challenges and opportunities. The use of SQL for data extraction and analysis enabled a detailed examination of various aspects of the business, providing a solid foundation for strategic improvements.
